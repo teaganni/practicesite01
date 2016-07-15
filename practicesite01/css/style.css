@@ -1,0 +1,70 @@
+body {
+/*margin-left: 10%;*/
+/*margin-right: 10%;*/
+/*margin-top: 25%;*/
+/*margin-bottom: 20%;*/
+}
+
+.hero {
+	background: url(/img/backgroundimg.jpg);
+	background-size:cover;
+	/*background-size:cover; -- this makes the image fill the div*/
+	/*position: absolute;*/
+	/*RESIZE/COMPRESS IMAGES TO INCREASE LOAD TIME, ex. 1600px is max size you'd need for computer monitors. Use PSD, cmd+opt+shift+s -- (save for web), a good file size is as small as possible!!! under 200k is good. 500k is max..... More images means more loading time, so compress carefully.*/
+	width:100%;
+	height:100vh;
+	/*height:100vh; --- "viewport height" */
+	/*top:0;*/
+	/*left:0;*/
+	/*z-index:-1;*/
+}
+
+	header {
+		font-family: 'Cambo', serif;
+		position:relative;
+		width:70%;
+		/*relative to the div its inside of. absolute, in this case refers to viewport.*/
+		transform: translate(-50%, -35%);
+		top:35%;
+		left:50%;
+	}
+
+	.title {
+		border: 6px solid black;
+		background:rgba(255,255,255,0.4);
+		padding : 32px;
+	}
+		
+		.title h1 {
+		font-size: 102pt;
+		line-height: 86pt;
+		padding-bottom: 5px;
+		/*text-transform: uppercase;*/
+		}
+		
+		blockquote{
+		background: none;
+		font-family: 'Cambo', serif;
+		font-weight: 600;
+		font-size: 25pt;
+		color:black;
+		position: relative;
+		/*margin-top:30%;*/
+		padding-top:18pt;
+		float: right;
+		width:36%;
+		margin-top: 12px;
+	}
+
+	.intro {
+		padding-top: 10%;
+		font-size:16pt;
+		clear:both;
+		/*clear:both, clear:left or right keeps the content after floated content from moving up next to that content.*/
+	}
+
+	p {
+		width:70ch;
+	}
+
+	
